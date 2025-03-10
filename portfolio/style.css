@@ -1,0 +1,149 @@
+body {
+  font-family: "Verdana", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #ff9800;
+  color: #453;
+}
+
+header {
+  background-color: #222;
+  color: white;
+  padding: 90px;
+}
+.project-link {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #ff9800; /* Orange button */
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out;
+}
+
+.decor-img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  order-radius: 10px;
+  display: block;
+  margin: 20px auto;
+}
+
+.project-link:hover {
+  background-color: #e65100;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 50px;
+}
+
+footer a {
+  color: #fbbc05;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: rgb(255, 0, 0);
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.bubble-nav {
+  list-style: none;
+  padding: 10px 20px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  width: fit-content;
+}
+
+.bubble-nav li {
+  display: inline;
+}
+
+.bubble-nav li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 25px;
+  transition: background 0.3s ease-in-out, color 0.3s;
+}
+
+.bubble-nav li a:hover {
+  background: #ff9800;
+  color: white;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #fbbc05;
+}
+
+/* 🌟 Sections */
+section {
+  margin: 60px 20px;
+  padding: 20px;
+}
+
+.project {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.project:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+#contact a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+#contact a:hover {
+  color: rgb(109, 89, 89);
+}
+
+@media (max-width: 768px) {
+  .project {
+    width: 90%;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+}
